@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+}
+
+
+
+p {
+  font-family: Roboto, Arial; 
+}
+
+.on-page {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  background-color: #36454F;
+  margin-top: 65px;
+
+  
+}
+
+
+
+.left-sec {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #36454F;
+  flex: 1;
+  color: white;
+}
+
+.first-heading {
+  font-family: 'Oswald', sans-serif;
+  text-align: right;
+  font-weight: bold;
+  font-size: 44px;
+}
+
+.under-heading {
+  margin-top: 65px;
+}
+
+.first-line {
+  width: 11%;
+  margin-top: -30px;
+  margin-left:403px;
+  border: 3px solid white
+}
+
+.dividing-line {
+  height: 1px;
+  box-shadow: 0 0.5px 0.5px -0.1px darkgray;
+  border: none;
+}
+
+.first-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 40px;
+  font-family: Roboto, Arial;
+  
+}
+
+.p-lang {
+  margin-top: 50px;
+  font-size: 17px;
+  width: 100px;
+}
+
+.py-image {
+  width: 50px;
+  height: 40px;
+  margin-top: 50px;
+  margin-right: 170px; 
+}
+
+.py-word {
+  font-size: 11px;
+  color: darkgray;
+  margin-left: 6px;
+}
+
+.second-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding-left: 40px;
+}
+
+.f-end {
+  font-size: 17px;
+}
+
+
+.html-image {
+  width: 60px;
+  height: 63px;
+  margin-left: 100px;
+}
+
+.html-word {
+  margin-left: 112px;
+  font-size: 11px;
+  color: darkgray;
+}
+
+
+.css-image {
+  width: 70px;
+  height: 65px;
+  margin-right: 91px;
+}
+
+.css-word {
+  font-size: 11px;
+  color: darkgray;
+  margin-left: 22px;
+}
+
+
+
+.middle-sec {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(160, 106, 6);
+  flex: 1;
+}
+
+
+.second-heading {
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+  font-weight: bold;
+  font-size: 44px;
+  color: white;
+}
+
+.second-line {
+  width: 1.5%;
+  margin-top: -30px;
+  margin-right:435px;
+  border: 3px solid white 
+}
+
+
+.the-attributes {
+  font-size: 20px;
+  color: wheat;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+}
+
+.un-list {
+  font-family: Roboto, sans-serif;
+  color: #ccccccb7;
+  font-size: 15.5px;
+}
+
+.right-sec {
+  flex: 1;
+  
+}
+
+.skills-img {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,49 @@
+.main-header {
+  font-size: 14.5px;
+  font-family: Roboto, Arial;
+  display: flex;
+  flex-direction: row;
+  background-color: #36454F;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  border-bottom: solid rgb(112, 107, 107) 1px;
+  z-index: 100;
+}
+
+.left-header {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+}
+
+.profile-img {
+  height: 36px;
+  width: 35px;
+  border-radius: 18px;
+  margin-top: 6px;
+}
+
+.inb {
+  margin-left: 15px;
+  color: gray;
+  font-family: Roboto, Arial;
+  font-weight: bold;
+}
+
+
+.nav-list {
+  text-decoration: none;
+  color: gray;
+  margin-right: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.nav-list:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,896 @@
+.on-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #36454F;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin-top: 60px;
+}
+
+.left-on-page {
+  font-family: Roboto, Arial;
+  font-weight: bold;
+  margin-left: -55px;
+  margin-top: 140px;
+}
+
+.left-on-page:hover {
+  cursor: auto;
+}
+
+.welcome {
+  font-family: Roboto, Arial;
+  font-size: 18px;
+  color: darkgray;
+  margin-bottom: -55px;
+}
+
+.greeting {
+  font-family: Roboto, Arial;
+  font-size: 68px;
+  color: white;
+}
+
+.my-name {
+  color: black;
+  margin-bottom: 0;
+  font-family: Roboto, Arial;
+}
+
+.aspiring {
+  font-size: 25px;
+  margin-top: -65px;
+  color: white;
+}
+
+.about-me {
+  width: 700px;
+  font-size: 15px;
+  color: darkgray;
+  margin-top: -13px;
+}
+
+.find-me {
+  margin-top: 90px;
+  position: absolute;
+  bottom: 0;
+  font-size: 13px;
+}
+
+.find-text {
+  font-size: 14px;
+  color: darkgray;
+}
+
+.fb-logo {
+  height: 35px;
+}
+
+.fb-logo:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.fb-logo:active {
+  opacity: 0.4;
+}
+
+.github-logo {
+  height: 35px;
+  margin-left: 10px;
+}
+
+.github-logo:hover {
+  opacity: 0.7;
+  cursor:pointer;
+} 
+
+.github-logo:active {
+  opacity: 0.4;
+}
+
+.linkedin-logo {
+  height: 35px;
+  margin-left: 10px;
+}
+
+.linkedin-logo:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.linkedin-logo:active {
+  opacity: 0.4;
+}
+
+
+
+.page-pic {
+  height: 420px;
+  margin-top: 10px;
+  filter: brightness(70%);
+  border-radius: 210px;
+  margin-top: 108px;
+}
+
+.mobile-view {
+  display: none;
+}
+
+/* Media query for screens up to 767px (typical mobile devices) */
+@media screen and (max-width: 770px) {
+  .desktop-view {
+    display: none;
+  }
+
+  .mobile-view{
+    display: block;
+  }
+
+  .nav-bar {
+    background-color: black;
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    
+  }
+
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  input[type="checkbox"]:checked + label {
+    background-color: darkgrey;
+  }
+
+
+  input[type="checkbox"]:checked + label + nav {
+    display: block;
+  } 
+
+  label {
+    color: white;
+  
+  }
+
+  .ham-icon {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    
+  }
+
+  nav {
+    display: none;
+    background-color: black;
+    color: white;
+    width: 30%;
+    position: fixed;
+    top: 40px;
+    right: 0;
+  }
+
+  nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .full-name {
+    color: white;
+    margin-left: 20px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  
+
+  .welcome-section {
+    background-image: url(photos/White\ Addai.jpg);
+    background-size: cover;
+    height: 450px;
+    margin-top: 48px;
+    margin-bottom: 0;
+  }
+
+  .welcome-section::before {
+    content: "";
+    position: absolute;
+    top: 170px;
+    left: 0;
+    width: 95%;
+    height: 37%;
+    background-color: rgba(0, 0, 0, 0.692);
+  }
+
+
+  .the-main-welcoming {
+    margin-left: 15px;
+  }
+  .welcome-message {
+    font-weight: bold;
+    padding-top: 190px;
+    font-size: 110%;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-bottom: 0;
+  }
+
+  .my-hi {
+    font-size: 200%;
+    margin-top: 2px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .me-addai {
+    color: black;
+    margin-bottom: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+  }
+
+  .the-line-1 {
+    margin-top: -22px;
+    border:  1px solid white;
+    width: 90%;
+    margin-right: 40px;
+  }
+
+  .ambition {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 90%;
+    font-weight: bold;
+  }
+
+  .the-line-2 {
+    border:  1px solid white;
+    width: 90%;
+    margin-right: 40px;
+  }
+
+  .The-about {
+    background-color: #36454F;
+    color: darkgray;
+    margin-top: -20px;
+    position: absolute;
+    z-index: 50;
+    
+  }
+
+  .about-up-section {
+    display: block;
+    margin-left: 20px;
+  }
+
+  .ab-header {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 90px;
+    color: white;
+  }
+
+  .first-ab-line {
+    width: 15%;
+    margin-left: -0.5px;
+    margin-top: -10px;
+    border: 2px solid white;
+  }
+
+  .ab-name {
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .ab-line {
+    width: 80%;
+    height: 0px;
+    box-shadow: 0 0 0 0.5px darkgray;
+    border: none;
+    display: none;
+
+    margin-right: 70px;
+  }
+
+
+  .ab-mail {
+    font-family: "Roboto", sans-serif;
+  }
+
+  .ab-phone {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: darkgray;
+  }
+
+  .ab-address {
+    font-family: "Roboto", sans-serif;
+  }
+
+  .ab-location {
+    font-family: "Roboto", sans-serif;
+  }
+
+  .about-down-section {
+    margin-left: 20px;
+    margin-bottom: 70px;
+  }
+
+  .BD {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin-top: 70px;
+  }
+
+  .BD-info {
+    font-family: "Roboto", sans-serif;
+  }
+
+  .last-about-line {
+    height: 1px;
+    box-shadow: 0 0.5px 0.5px 0.5px darkgray;
+    border: none;
+    margin-bottom: 50px;
+  }
+
+  .the-skills {
+    display: block;
+    margin-top: 600px;
+    background-color: rgb(160, 106, 6);
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 40;
+    
+  }
+
+  .sktlls-on-top {
+    margin-left: 20px;
+  }
+
+  .sk-header {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 150px;
+    color: white;
+  }
+
+  .line-1 {
+    width: 15%;
+    margin-left: -0.5px;
+    margin-top: -10px;
+    border: 2px solid white;
+  }
+
+  .line-2 {
+    margin-top: 50px;
+    margin-left: -20px;
+    height: 1px;
+    box-shadow: 0 0.5px 0.5px 0.5px darkgray;
+    border: none;
+  }
+
+  .p-lang-and-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .pro-lang {
+    width: 40px;
+    color: white;
+  }
+
+  .py-and-word {
+    margin-right: 140px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pyt-image {
+    width: 50px;
+  }
+
+  .the-pyt {
+    color: #ccccccb7;
+    font-size: 70%;
+  }
+
+  .line-3 {
+    margin-left: -20px;
+    height: 1px;
+    box-shadow: 0 0.5px 0.5px 0.5px darkgray;
+    border: none;
+  }
+
+  .frontend-and-icons {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .front-lang {
+    color: white;
+  }
+
+  .html-image-word {
+    display: flex;
+    flex-direction: column;
+    margin-left: 72px;
+  }
+
+
+  .html-image {
+    width: 53px;
+  }
+
+  .html-word {
+    color: #ccccccb7;
+    font-size: 70%;
+    margin-left: 10px;
+  }
+
+  .css-image-word {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+  }
+
+  .css-image {
+    width: 62px;
+    margin-bottom: 8px;
+    
+  }
+
+  .css-word {
+    color: #ccccccb7;
+    font-size: 70%;
+    margin-left: 20px;
+    margin-top: 0;
+  }
+
+  .line-4 {
+    margin-left: -20px;
+    margin-top: -6px;
+    height: 1px;
+    box-shadow: 0 0.5px 0.5px 0.5px darkgray;
+    border: none;
+  }
+
+  .skills-below {
+    margin-left: 20px;
+    margin-bottom: 70px;
+  }
+
+  .my-atts {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-top: 50px;
+  } 
+
+  .the-lines {
+    color: #ccccccb7;
+    font-family: "Roboto", sans-serif;
+  }
+
+
+  .skills-last-line {
+    height: 1px;
+    box-shadow: 0 0.5px 0.5px 0.5px darkgray;
+    border: none;
+    margin-bottom: 50px;
+  }
+
+  .the-education {
+    display: block;
+    margin-top: 1320px;
+    background-color: #36454F;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 30;
+  }
+
+  .education-on-top {
+    margin-left: 20px;
+    margin-top: 250px;
+  }
+
+  .edu-header {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+  }
+
+  .edu-header-line {
+    width: 15%;
+    margin-left: -0.5px;
+    margin-top: -10px;
+    border: 2px solid white;
+  }
+
+  .cww-icon {
+    height: 50px;
+    width: 70px;
+    margin-top: 40px;
+  }
+
+  .cww-name {
+    font-family: "Robot", sans-serif;
+    font-size: 100%;
+    color: white;
+    width: 200px;
+    margin-top: -0.2px;
+    margin-bottom: 2px;
+  }
+
+  .cww-course {
+    font-family: "Roboto",sans-serif;
+    color: white;
+    font-size: 110%;
+    margin-top: 0;
+    margin-bottom: 2px;
+    
+  }
+
+  .cww-date {
+    font-family: "Roboto", sans-serif;
+    font-size: 90%;
+    margin-top: 0;
+    color: darkgray;
+    margin-bottom: 35px;
+  }
+
+  .cww-link {
+    text-decoration: none;
+    color: darkgray;
+    font-family: "Roboto", sans-serif;
+    font-size: 75%;
+
+  }
+
+  .edu-line {
+    margin-top: 50px;
+    height: 1px;
+    box-shadow: 0 0.5px 0.5px -0.1px darkgray;
+    border: none;
+  }
+
+  .education-below {
+    margin-left: 20px;
+    margin-bottom: 70px;
+  }
+
+  .wes-g-icon {
+    margin-top: 40px;
+    height: 70px;
+    border-radius: 35px;
+  }
+
+  .wes-g-name {
+    font-family: "Robot", sans-serif;
+    font-size: 100%;
+    color: white;
+    width: 200px;
+    margin-top: -0.2px;
+    margin-bottom: 2px;
+  }
+
+  .wes-g-course {
+    font-family: "Roboto",sans-serif;
+    color: white;
+    font-size: 110%;
+    margin-top: 0;
+    margin-bottom: 2px;
+  }
+
+  .wes-g-date {
+    font-family: "Roboto", sans-serif;
+    font-size: 90%;
+    margin-top: 0;
+    color: darkgray;
+    margin-bottom: 35px;
+  }
+
+  .wes-g-link {
+    text-decoration: none;
+    color: darkgray;
+    font-family: "Roboto", sans-serif;
+    font-size: 75%;
+  }
+
+  .education-last-line {
+    height: 1px;
+    box-shadow: 0 0.5px 0.5px 0.5px darkgray;
+    border: none;
+    margin-bottom: 50px;
+  }
+
+
+  .the-project {
+    display: block;
+    margin-top: 2020px;
+    background-color: rgb(160, 106, 6);
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 20;
+  }
+
+  .project-on-top {
+    margin-top: 350px;
+    margin-left: 20px;
+  }
+
+  .the-project-header {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+  }
+
+  .project-line {
+    width: 15%;
+    margin-left: -0.5px;
+    margin-top: -10px;
+    border: 2px solid white;
+  }
+
+  
+
+  .med-old {
+    text-decoration: none;
+    color: #ccccccb7;
+    margin-top: 40px;
+    font-family: "Roboto",sans-serif;
+  }
+
+  .project-1-image {
+    height: 195px;
+    
+  }
+
+  .project-1-overview {
+    font-family: "Oswald", sans-serif;
+    color: black;
+    margin-bottom: 2px;
+  }
+
+  .the-overview {
+    font-family: "Oswald", sans-serif;
+    color: #ccccccb7;
+    margin-top: 0;
+    margin-bottom: 4px;
+  }
+
+  .project-1-description {
+    font-family: "Oswald", sans-serif;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 2px;
+  }
+
+  .the-description {
+    font-family: "Oswald", sans-serif;
+    color: #ccccccb7;
+    margin-top: 0;
+
+  }
+
+  .proj-last-line-1 {
+    height: 1px;
+    box-shadow: 0 0.5px 0.5px 0.5px darkgray;
+    border: none;
+    margin-bottom: 70px;
+  }
+
+  .the-contact {
+    display: block;
+    margin-top: 2910px;
+    background-color: #36454F;
+    position: absolute;
+    left: 0;
+    right: 0;
+  
+  }
+
+  .contact-up-section {
+    margin-top: 250px;
+    margin-left: 20px;
+  }
+
+  .contact-header {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+  }
+
+  .contact-line {
+    width: 15%;
+    margin-left: -0.5px;
+    margin-top: -10px;
+    border: 2px solid white;
+  }
+
+  .first-contact-line {
+    margin-left: -20px;
+    margin-top: 50px;
+    height: 1px;
+    box-shadow: 0 0.5px 0.5px 0.5px darkgray;
+    border: none;
+  }
+
+  .drop-line {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 95%;
+  }
+
+  .got-project {
+    font-family: "Roboto", sans-serif;
+    font-size: 85%;
+    color: darkgray;
+  }
+
+  .second-contact-line {
+    margin-left: -20px;
+    height: 1px;
+    box-shadow: 0 0.5px 0.5px 0.5px darkgray;
+    border: none;
+  }
+
+  .name-and-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    margin-top: 50px;
+  }
+
+  .name-icon {
+    height: 50px;
+  }
+
+  .rans-accra {
+    margin-right: 122px;
+    margin-top: -10px;
+    
+  }
+
+  .rans {
+    color: darkgray;
+    font-size: 95%;
+    margin-bottom: 2px;
+  }
+
+  .accra {
+    color: darkgray;
+    font-size: 90%;
+    margin-top: 0;
+  }
+
+  .phone-and-icon {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .phone-icon {
+    height: 35px;
+    margin-left: 10px;
+  }
+
+  .phone-to-contact {
+    margin-right: 136px;
+    margin-top: -10px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .my-phone {
+    color: darkgray;
+    font-size: 95%;
+    margin-bottom: 2px;
+  }
+
+  .my-number {
+    color: darkgray;
+    font-size: 90%;
+    margin-top: 0;
+  }
+
+  .mail-icon-and-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .mail-icon {
+    height: 35px;
+    margin-left: 10px;
+  }
+
+  .my-mail-and-value-mail {
+    margin-right: 66px;
+    margin-top: -10px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .the-email {
+    color: darkgray;
+    font-size: 95%;
+    margin-bottom: 2px;
+  }
+
+  .the-value-mail {
+    color: darkgray;
+    font-size: 90%;
+    margin-top: 0;
+  }
+
+  .third-contact-line {
+    height: 1px;
+    box-shadow: 0 0.5px 0.5px 0.5px darkgray;
+    border: none;
+  }
+
+  .contact-down-section {
+    margin-left: 20px;
+    margin-bottom: 80px;
+  }
+
+  .find-me-on {
+    margin-top: 50px;
+    font-family: "Roboto", sans-serif;
+    font-size: 95%;
+    color: white;
+  }
+
+  .lets-engage {
+    font-family: "Roboto", sans-serif;
+    font-size: 90%;
+    color: darkgray;
+  }
+
+  .my-contact-icons {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .linkedin-icon {
+    width: 30px;
+    margin-right: 15px;
+  }
+
+  .fb-icon {
+    width: 30px;
+    margin-right: 15px;
+  }
+
+  .github-icon {
+    width: 30px;
+    margin-right: 15px;
+  }
+
+  .instagram-icon {
+    width: 30px;
+    margin-right: 15px;
+  }
+}
+
+  
+
+

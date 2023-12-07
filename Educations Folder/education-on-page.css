@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  font-family: Roboto, Arial;
+}
+
+
+
+p {
+  font-family: Roboto, Arial;
+}
+
+.on-page {
+  display: flex;
+  background-color: rgb(73, 69, 69);
+  margin-top: 65px;
+
+  
+}
+
+.About-img {
+  width: 100%;
+  height: auto;
+}
+
+.left-sec {
+  flex: 1;
+  
+}
+
+.middle-sec {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #36454F;
+  flex: 1;
+  color: white;
+}
+
+
+.first-heading {
+  font-family: 'Oswald', sans-serif;
+  text-align: right;
+  font-weight: bold;
+  font-size: 44px;  
+}
+
+.first-line {
+  width: 15%;
+  margin-top: -30px;
+  border: 3px solid white;
+  margin-left: 363px;
+}
+
+.school-things-1 {
+  padding-left: 140px;
+  margin-top: 130px;
+  transition: ease-out 0.5s;
+}
+
+.school-things-1:hover {
+  transform: translateY(-15px);
+  filter: brightness(60%);
+}
+.wes-g-logo-and-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.wes-g-website {
+  text-decoration: none;
+  color: darkgray;
+  font-size: 12px;
+  padding-right: 100px;
+}
+
+.wes-g-website:hover {
+  text-decoration: underline;
+}
+
+.wes-g-image {
+  height: 60px;
+  border-radius: 30px;
+  margin-bottom: 5px;
+
+}
+
+.first-school {
+  font-weight: 300;
+  font-size: 16px;
+  font-family: Roboto, Arial;
+  width: 200px;
+  margin-top: -1px;
+  margin-bottom: 5px;
+}
+
+.first-course {
+  font-family: Roboto, Arial;
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.first-date {
+  color: darkgray;
+  margin-top: 0;
+  font-size: 12px;
+}
+
+
+
+.second-heading {
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+  font-weight: bold;
+  font-size: 44px;
+  color: white;
+  
+}
+
+.school-things-2 {
+  color: #cccccc;
+  padding-left: 140px;
+  margin-top: 145px;
+  transition: 0.5s ease-out;
+}
+
+.school-things-2:hover {
+  transform: translateY(-15px);
+  filter: brightness(60%);
+}
+
+.cww-and-link {
+  display: flex;
+  flex-direction: row;
+    justify-content: space-between;
+}
+
+.cww-image {
+  width: 60px;
+  height: 40px;
+  margin-bottom: 5px;
+
+}
+
+.cww-website {
+  text-decoration: none;
+  color: darkgray;
+  font-size: 12px;
+  padding-right: 55px;
+}
+
+.cww-website:hover {
+  text-decoration: underline;
+}
+
+.second-school {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: Roboto, Arial;
+  width: 200px;
+  margin-top: -1px;
+  margin-bottom: 5px;
+}
+
+.second-course {
+  width: 300px;
+  font-family: Roboto, Arial;
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.second-date {
+  color: darkgray;
+  margin-top: 0;
+  font-size: 12px;  
+}
+
+
+.right-sec {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(160, 106, 6);
+  flex: 1;
+}

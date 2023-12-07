@@ -1,0 +1,256 @@
+body {
+  margin: 0;
+}
+
+
+.on-page {
+  display: flex;
+  background-color: rgb(73, 69, 69);
+  margin-top: 65px;
+
+  
+}
+
+.left-sec {
+  flex: 1;
+  
+}
+
+.About-img {
+  width: 100%;
+  height: auto;
+}
+
+.middle-sec {
+  background-color: #36454F;
+  flex: 1;
+  color: white;
+}
+
+
+.First-main-head {
+  font-family: 'Oswald', sans-serif;
+  text-align: right;
+  font-weight: bold;
+  font-size: 44px;
+}
+
+.first-line {
+  width: 15%;
+  margin-top: -30px;
+  border: 3px solid white;
+  margin-left: 363px;
+}
+
+
+.greet-line-1 {
+  height: 1px;
+  box-shadow: 0 0.5px 0.5px -0.1px darkgray;
+  border: none;
+  margin-top: 50px;
+  margin-bottom: -35px;
+}
+
+.greet-line-2 {
+  height: 1px;
+  box-shadow: 0 0.5px 0.5px -0.1px darkgray;
+  border: none;
+}
+
+
+.first-greet {
+  font-family: Roboto, Arial;
+  font-weight:550;
+  color: white;
+  margin-left: 85px;
+  margin-top: 55px;
+  font-size: 15px;
+}
+
+.connect-me {
+  font-weight: 550;
+  font-size: 13px;
+  color: darkgray;
+  margin-left: 85px;
+}
+
+.first-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  margin-right: 40px;
+  justify-content: space-around;
+  margin-top: 40px;
+  transition: filter 0.8s ease-in-out;
+}
+
+.first-div:hover {
+  filter: brightness(20%);
+}
+
+.own-me {
+  width: 27px;
+  height: 35px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.name-location {
+  font-weight: 600;
+  padding-right: 50px;
+  color: darkgray;
+}
+
+.my-name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin-bottom: 3px;
+  margin-top: 20px;
+}
+
+.my-location {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.second-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 23px;
+  margin-right: 54px;
+  margin-top: 30px;
+  justify-content: space-around;
+  transition: filter 0.8s ease-in-out;
+}
+
+.second-div:hover {
+  filter: brightness(20%);
+}
+
+.phone-icon {
+  width: 27px;
+  height: 35px;
+  border-radius: 4px;
+  margin-right: -40px;
+}
+
+
+.phone-and-number {
+  font-weight: 600;
+  padding-right: 58px;
+  color: darkgray;
+}
+
+.my-phone {
+  margin-top: -3px;
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+.number {
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.the-mail-link {
+  text-decoration: none;
+  color: darkgray;
+}
+
+.third-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+  margin-right: 40px;
+  margin-top: 30px;
+  justify-content: space-between;
+  transition: filter 0.8s ease-in-out;
+}
+
+.third-div:hover {
+  filter: brightness(50%);
+}
+
+.mail-icon {
+  width: 35px;
+  height: 30px;
+  margin-left: 5px;
+  }
+
+.mail-and-it {
+  color: darkgray;
+  margin-right: 72px
+;
+}
+
+.word-mail {
+  font-weight: bold;
+  margin-top: -3px;
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+.my-mail {
+  font-size: 12px;
+  margin-top: 0;
+}
+
+
+.right-sec {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(160, 106, 6);
+  flex: 1;
+}
+
+
+.Second-main-head {
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+  font-weight: bold;
+  font-size: 44px;
+  color: white;
+  
+}
+
+
+
+.find-me {
+  font-family: Roboto, Arial;
+  font-weight:550;
+  color: #cccccc;
+  margin-left: 85px;
+  margin-top: 210px;
+  font-size: 14px;
+}
+
+.let-connect {
+  font-weight: 550;
+  font-size: 12px;
+  color: darkgray;
+  margin-left: 85px;
+}
+
+.the-social-icons {
+  margin-left: 85px;
+  margin-top: 30px;
+}
+
+.linked-In {
+  height: 30px;
+}
+
+.facebook {
+  height: 30px;
+  margin-left: 10px;
+}
+
+.github {
+  height: 30px;
+  margin-left: 10px;
+}
+
+.instagram {
+  height: 30px;
+  margin-left: 10px;
+}
