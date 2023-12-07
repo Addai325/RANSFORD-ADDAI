@@ -164,8 +164,8 @@
   .ham-icon {
     position: absolute;
     right: 10px;
-    top: 15px;
-    
+    top: 10px;
+    font-size: 21px;
   }
 
   nav {
@@ -195,6 +195,7 @@
     color: white;
     margin-left: 20px;
     font-family: "Roboto", sans-serif;
+    font-size: 16px;
   }
 
   
