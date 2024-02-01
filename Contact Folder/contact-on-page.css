@@ -5,7 +5,7 @@ body {
 
 .on-page {
   display: flex;
-  background-color: rgb(73, 69, 69);
+  background-color: white;
   margin-top: 65px;
 
   
@@ -22,7 +22,7 @@ body {
 }
 
 .middle-sec {
-  background-color: #36454F;
+  background-color: blue;
   flex: 1;
   color: white;
 }
@@ -45,7 +45,7 @@ body {
 
 .greet-line-1 {
   height: 1px;
-  box-shadow: 0 0.5px 0.5px -0.1px darkgray;
+  box-shadow: 0 0.5px 0.5px -0.1px white;
   border: none;
   margin-top: 50px;
   margin-bottom: -35px;
@@ -53,7 +53,7 @@ body {
 
 .greet-line-2 {
   height: 1px;
-  box-shadow: 0 0.5px 0.5px -0.1px darkgray;
+  box-shadow: 0 0.5px 0.5px -0.1px white;
   border: none;
 }
 
@@ -70,7 +70,7 @@ body {
 .connect-me {
   font-weight: 550;
   font-size: 13px;
-  color: darkgray;
+  color: white;
   margin-left: 85px;
 }
 
@@ -98,7 +98,7 @@ body {
 .name-location {
   font-weight: 600;
   padding-right: 50px;
-  color: darkgray;
+  color: white;
 }
 
 .my-name {
@@ -139,7 +139,7 @@ body {
 .phone-and-number {
   font-weight: 600;
   padding-right: 58px;
-  color: darkgray;
+  color: white;
 }
 
 .my-phone {
@@ -155,7 +155,7 @@ body {
 
 .the-mail-link {
   text-decoration: none;
-  color: darkgray;
+  color: white;
 }
 
 .third-div {
@@ -179,7 +179,7 @@ body {
   }
 
 .mail-and-it {
-  color: darkgray;
+  color: white;
   margin-right: 72px
 ;
 }
@@ -199,7 +199,7 @@ body {
 
 .right-sec {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(160, 106, 6);
+  background-color: white;
   flex: 1;
 }
 
@@ -209,7 +209,7 @@ body {
   text-align: left;
   font-weight: bold;
   font-size: 44px;
-  color: white;
+  color: blue;
   
 }
 
@@ -218,7 +218,7 @@ body {
 .find-me {
   font-family: Roboto, Arial;
   font-weight:550;
-  color: #cccccc;
+  color: blue;
   margin-left: 85px;
   margin-top: 210px;
   font-size: 14px;
@@ -227,7 +227,7 @@ body {
 .let-connect {
   font-weight: 550;
   font-size: 12px;
-  color: darkgray;
+  color: blue;
   margin-left: 85px;
 }
 

@@ -11,7 +11,7 @@ p {
 .on-page {
   font-family: Roboto, sans-serif;
   display: flex;
-  background-color: #36454F;
+  background-color: white;
   margin-top: 65px;
 
   
@@ -21,9 +21,9 @@ p {
 
 .left-sec {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #36454F;
+  background-color: white;
   flex: 1;
-  color: white;
+  color: blue;
 }
 
 .first-heading {
@@ -41,12 +41,12 @@ p {
   width: 11%;
   margin-top: -30px;
   margin-left:403px;
-  border: 3px solid white
+  border: 3px solid blue;
 }
 
 .dividing-line {
   height: 1px;
-  box-shadow: 0 0.5px 0.5px -0.1px darkgray;
+  box-shadow: 0 0.5px 0.5px -0.1px blue;
   border: none;
 }
 
@@ -74,7 +74,7 @@ p {
 
 .py-word {
   font-size: 11px;
-  color: darkgray;
+  color: blue;
   margin-left: 6px;
 }
 
@@ -100,7 +100,7 @@ p {
 .html-word {
   margin-left: 112px;
   font-size: 11px;
-  color: darkgray;
+  color: blue;
 }
 
 
@@ -112,7 +112,7 @@ p {
 
 .css-word {
   font-size: 11px;
-  color: darkgray;
+  color: blue;
   margin-left: 22px;
 }
 
@@ -120,7 +120,7 @@ p {
 
 .middle-sec {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(160, 106, 6);
+  background-color: blue;
   flex: 1;
 }
 
@@ -143,7 +143,7 @@ p {
 
 .the-attributes {
   font-size: 20px;
-  color: wheat;
+  color: white;
   text-decoration: underline;
   font-weight: bold;
   font-family: Roboto, sans-serif;
@@ -151,7 +151,7 @@ p {
 
 .un-list {
   font-family: Roboto, sans-serif;
-  color: #ccccccb7;
+  color: white;
   font-size: 15.5px;
 }
 

@@ -5,7 +5,7 @@ body {
 
 .on-page {
   display: flex;
-  background-color: #36454F;
+  background-color: white;
   margin-top: 65px;
 
   
@@ -15,7 +15,7 @@ body {
 
 .left-sec {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #36454F;
+  background-color: white;
   flex: 1;
   color: white;
 }
@@ -25,12 +25,13 @@ body {
   text-align: right;
   font-weight: bold;
   font-size: 44px;
+  color: blue;
 }
 
 .first-line {
   width: 15%;
   margin-top: -30px;
-  border: 3px solid white;
+  border: 3px solid blue;
   margin-left: 369px;
 }
 
@@ -46,7 +47,7 @@ body {
 
 .medic-old {
   font-size: 13px;
-  color: darkgray;
+  color: blue;
   margin-top: 60px;
   margin-bottom: 0;
   margin-left: 22px;
@@ -57,6 +58,7 @@ body {
   height: 235px;
   margin-top: 20px;
   margin-left: 22px;
+  filter: brightness(90%);
 }
 
 .second-heading {
@@ -81,7 +83,7 @@ body {
 
 .overview-write {
   font-family: 'Oswald', sans-serif;
-  color: #cccccca2;
+  color: white;
   font-size: 14px;
   margin-top: 2px;
 }
@@ -97,13 +99,13 @@ body {
 .description-write {
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
-  color: #cccccca2;
+  color: white;
   margin-top: 2px;
 }
 
 .middle-sec {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(160, 106, 6);
+  background-color: blue;
   flex: 1;
 }
 

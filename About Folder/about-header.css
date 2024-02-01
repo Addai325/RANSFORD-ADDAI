@@ -3,7 +3,7 @@
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: row;
-  background-color: #36454F;
+  background-color: blue;
   position: fixed;
   top: 0;
   right: 0;
@@ -11,7 +11,7 @@
   justify-content: space-between;
   align-items: center;
   height: 65px;
-  border-bottom: solid rgb(112, 107, 107) 1px;
+  border-bottom: solid white 0.5px;
   z-index: 100;
 }
 
@@ -30,7 +30,7 @@
 
 .inb {
   margin-left: 15px;
-  color: gray;
+  color: white;
   font-family: Roboto, Arial;
   font-weight: bold;
 }
@@ -38,7 +38,7 @@
 
 .nav-list {
   text-decoration: none;
-  color: gray;
+  color: white;
   margin-right: 15px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;

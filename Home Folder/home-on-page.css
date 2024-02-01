@@ -2,13 +2,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: #36454F;
+  background-color: blue;
   position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
   top: 0;
-  margin-top: 60px;
+  margin-top: 55px;
 }
 
 .left-on-page {
@@ -25,7 +25,7 @@
 .welcome {
   font-family: Roboto, Arial;
   font-size: 18px;
-  color: darkgray;
+  color: white;
   margin-bottom: -55px;
 }
 
@@ -50,7 +50,7 @@
 .about-me {
   width: 700px;
   font-size: 15px;
-  color: darkgray;
+  color: white;
   margin-top: -13px;
 }
 
@@ -112,7 +112,6 @@
 .page-pic {
   height: 420px;
   margin-top: 10px;
-  filter: brightness(70%);
   border-radius: 210px;
   margin-top: 108px;
 }
@@ -132,7 +131,7 @@
   }
 
   .nav-bar {
-    background-color: black;
+    background-color: white;
     display: flex;
     position: fixed;
     left: 0;
@@ -148,7 +147,7 @@
   }
 
   input[type="checkbox"]:checked + label {
-    background-color: darkgrey;
+    background-color: white;
   }
 
 
@@ -157,7 +156,7 @@
   } 
 
   label {
-    color: white;
+    color: black;
   
   }
 
@@ -192,7 +191,7 @@
   }
 
   .full-name {
-    color: white;
+    color: black;
     margin-left: 20px;
     font-family: "Roboto", sans-serif;
     font-size: 110%;
@@ -215,7 +214,7 @@
     left: 0;
     width: 95%;
     height: 37%;
-    background-color: rgba(0, 0, 0, 0.692);
+    background-color: rgba(0, 0, 0, 0.3);
   }
 
 
@@ -266,8 +265,8 @@
   }
 
   .The-about {
-    background-color: #36454F;
-    color: darkgray;
+    background-color: blue;
+    color: white;
     margin-top: -20px;
     position: absolute;
     z-index: 50;
@@ -315,7 +314,7 @@
   .ab-phone {
     font-family: "Roboto", sans-serif;
     text-decoration: none;
-    color: darkgray;
+    color: white;
   }
 
   .ab-address {
@@ -351,7 +350,7 @@
   .the-skills {
     display: block;
     margin-top: 600px;
-    background-color: rgb(160, 106, 6);
+    background-color: white;
     position: absolute;
     left: 0;
     right: 0;
@@ -366,7 +365,7 @@
   .sk-header {
     font-family: 'Oswald', sans-serif;
     margin-top: 150px;
-    color: white;
+    color: blue;
   }
 
   .line-1 {
@@ -380,7 +379,7 @@
     margin-top: 50px;
     margin-left: -20px;
     height: 1px;
-    box-shadow: 0 0.5px 0.5px 0.5px darkgray;
+    box-shadow: 0 0.5px 0.5px 0.5px blue;
     border: none;
   }
 
@@ -393,7 +392,7 @@
 
   .pro-lang {
     width: 40px;
-    color: white;
+    color: blue;
   }
 
   .py-and-word {
@@ -407,14 +406,14 @@
   }
 
   .the-pyt {
-    color: #ccccccb7;
+    color: blue;
     font-size: 70%;
   }
 
   .line-3 {
     margin-left: -20px;
     height: 1px;
-    box-shadow: 0 0.5px 0.5px 0.5px darkgray;
+    box-shadow: 0 0.5px 0.5px 0.5px blue;
     border: none;
   }
 
@@ -426,7 +425,7 @@
   }
 
   .front-lang {
-    color: white;
+    color: blue;
   }
 
   .html-image-word {
@@ -441,7 +440,7 @@
   }
 
   .html-word {
-    color: #ccccccb7;
+    color: blue;
     font-size: 70%;
     margin-left: 10px;
   }
@@ -459,7 +458,7 @@
   }
 
   .css-word {
-    color: #ccccccb7;
+    color: blue;
     font-size: 70%;
     margin-left: 20px;
     margin-top: 0;
@@ -469,7 +468,7 @@
     margin-left: -20px;
     margin-top: -6px;
     height: 1px;
-    box-shadow: 0 0.5px 0.5px 0.5px darkgray;
+    box-shadow: 0 0.5px 0.5px 0.5px blue;
     border: none;
   }
 
@@ -480,19 +479,19 @@
 
   .my-atts {
     font-family: "Roboto", sans-serif;
-    color: white;
+    color: blue;
     margin-top: 50px;
   } 
 
   .the-lines {
-    color: #ccccccb7;
+    color: blue;
     font-family: "Roboto", sans-serif;
   }
 
 
   .skills-last-line {
     height: 1px;
-    box-shadow: 0 0.5px 0.5px 0.5px darkgray;
+    box-shadow: 0 0.5px 0.5px 0.5px blue;
     border: none;
     margin-bottom: 50px;
   }
@@ -500,7 +499,7 @@
   .the-education {
     display: block;
     margin-top: 1320px;
-    background-color: #36454F;
+    background-color: blue;
     position: absolute;
     left: 0;
     right: 0;
@@ -552,13 +551,13 @@
     font-family: "Roboto", sans-serif;
     font-size: 90%;
     margin-top: 0;
-    color: darkgray;
+    color: white;
     margin-bottom: 35px;
   }
 
   .cww-link {
     text-decoration: none;
-    color: darkgray;
+    color: white;
     font-family: "Roboto", sans-serif;
     font-size: 75%;
 
@@ -567,7 +566,7 @@
   .edu-line {
     margin-top: 50px;
     height: 1px;
-    box-shadow: 0 0.5px 0.5px -0.1px darkgray;
+    box-shadow: 0 0.5px 0.5px -0.1px blue;
     border: none;
   }
 
@@ -603,20 +602,20 @@
     font-family: "Roboto", sans-serif;
     font-size: 90%;
     margin-top: 0;
-    color: darkgray;
+    color: white;
     margin-bottom: 35px;
   }
 
   .wes-g-link {
     text-decoration: none;
-    color: darkgray;
+    color: white;
     font-family: "Roboto", sans-serif;
     font-size: 75%;
   }
 
   .education-last-line {
     height: 1px;
-    box-shadow: 0 0.5px 0.5px 0.5px darkgray;
+    box-shadow: 0 0.5px 0.5px 0.5px blue;
     border: none;
     margin-bottom: 50px;
   }
@@ -625,7 +624,7 @@
   .the-project {
     display: block;
     margin-top: 2020px;
-    background-color: rgb(160, 106, 6);
+    background-color: white;
     position: absolute;
     left: 0;
     right: 0;
@@ -639,28 +638,28 @@
 
   .the-project-header {
     font-family: 'Oswald', sans-serif;
-    color: white;
+    color: blue;
   }
 
   .project-line {
     width: 15%;
     margin-left: -0.5px;
     margin-top: -10px;
-    border: 2px solid white;
+    border: 2px solid blue;
   }
 
   
 
   .med-old {
     text-decoration: none;
-    color: #ccccccb7;
+    color: blue;
     margin-top: 40px;
     font-family: "Roboto",sans-serif;
   }
 
   .project-1-image {
     height: 195px;
-    
+    filter: brightness(80%);
   }
 
   .project-1-overview {
@@ -671,7 +670,7 @@
 
   .the-overview {
     font-family: "Oswald", sans-serif;
-    color: #ccccccb7;
+    color: blue;
     margin-top: 0;
     margin-bottom: 4px;
   }
@@ -685,14 +684,14 @@
 
   .the-description {
     font-family: "Oswald", sans-serif;
-    color: #ccccccb7;
+    color: blue;
     margin-top: 0;
 
   }
 
   .proj-last-line-1 {
     height: 1px;
-    box-shadow: 0 0.5px 0.5px 0.5px darkgray;
+    box-shadow: 0 0.5px 0.5px 0.5px blue;
     border: none;
     margin-bottom: 70px;
   }
@@ -700,7 +699,7 @@
   .the-contact {
     display: block;
     margin-top: 2910px;
-    background-color: #36454F;
+    background-color: blue;
     position: absolute;
     left: 0;
     right: 0;
@@ -728,7 +727,7 @@
     margin-left: -20px;
     margin-top: 50px;
     height: 1px;
-    box-shadow: 0 0.5px 0.5px 0.5px darkgray;
+    box-shadow: 0 0.5px 0.5px 0.5px white;
     border: none;
   }
 
@@ -741,13 +740,13 @@
   .got-project {
     font-family: "Roboto", sans-serif;
     font-size: 85%;
-    color: darkgray;
+    color: white;
   }
 
   .second-contact-line {
     margin-left: -20px;
     height: 1px;
-    box-shadow: 0 0.5px 0.5px 0.5px darkgray;
+    box-shadow: 0 0.5px 0.5px 0.5px white;
     border: none;
   }
 
@@ -770,13 +769,13 @@
   }
 
   .rans {
-    color: darkgray;
+    color: white;
     font-size: 95%;
     margin-bottom: 2px;
   }
 
   .accra {
-    color: darkgray;
+    color: white;
     font-size: 90%;
     margin-top: 0;
   }
@@ -800,13 +799,13 @@
   }
 
   .my-phone {
-    color: darkgray;
+    color: white;
     font-size: 95%;
     margin-bottom: 2px;
   }
 
   .my-number {
-    color: darkgray;
+    color: white;
     font-size: 90%;
     margin-top: 0;
   }
@@ -830,20 +829,20 @@
   }
 
   .the-email {
-    color: darkgray;
+    color: white;
     font-size: 95%;
     margin-bottom: 2px;
   }
 
   .the-value-mail {
-    color: darkgray;
+    color: white;
     font-size: 90%;
     margin-top: 0;
   }
 
   .third-contact-line {
     height: 1px;
-    box-shadow: 0 0.5px 0.5px 0.5px darkgray;
+    box-shadow: 0 0.5px 0.5px 0.5px white;
     border: none;
   }
 
@@ -862,7 +861,7 @@
   .lets-engage {
     font-family: "Roboto", sans-serif;
     font-size: 90%;
-    color: darkgray;
+    color: white;
   }
 
   .my-contact-icons {
