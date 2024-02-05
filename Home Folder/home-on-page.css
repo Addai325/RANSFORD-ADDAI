@@ -372,7 +372,7 @@
     width: 15%;
     margin-left: -0.5px;
     margin-top: -10px;
-    border: 2px solid white;
+    border: 2px solid blue;
   }
 
   .line-2 {
@@ -468,7 +468,7 @@
     margin-left: -20px;
     margin-top: -6px;
     height: 1px;
-    box-shadow: 0 0.5px 0.5px 0.5px blue;
+    box-shadow: 0 0.5px 0.5px blue;
     border: none;
   }
 
